@@ -1,0 +1,77 @@
+<!doctype html>
+<html xml:lang=es>
+	<head>
+		<meta carset="utf-8">
+		<meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimun-scale=1.0, maximun-scale=1.0, user-scalable=no">
+		<title>Formulario</title>
+		<link rel="stylesheet" href="estilos.css">
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td><form>
+					Tipo texto:<br>
+					<input type="text" name="texto"><br>
+				  </form></td>
+			</tr>
+			<tr>
+				<td><form>
+					<input type="radio" name="gender" value="male" checked> Male<br>
+					<input type="radio" name="gender" value="female"> Female<br>
+					<input type="radio" name="gender" value="other"> Other
+				  </form></td>
+			</tr>
+			<tr>
+				<td>Actividad</td>
+				<td><input name="actividad" class="form-control" type="text"></td>
+			</tr>
+			<tr>
+				<td>CIF</td>
+				<td><input name="cif" class="form-control" type="text"></td>    
+			</tr>
+			<tr>
+				<td>Domicilio</td>
+				<td><input name="domicilio" class="form-control" type="text"></td>
+			</tr>
+			<tr>
+				<td>CP</td>
+				<td><input name="cp" class="form-control" type="text"></td>
+			</tr>
+			<tr>
+				<td>Localidad</td>
+				<td><input name="localidad" class="form-control" required="" type="text"></td>
+			</tr>
+			<tr>
+				<td>Tlf</td>
+				<td><input name="tlf" class="form-control" type="text"></td>
+			</tr>
+			<tr>
+			  <td>Fax</td>
+			  <td><input name="fax" class="form-control" type="text"></td>
+			</tr>
+			<tr>
+				<td>E-mail</td>
+				<td><input name="email" class="form-control" type="text"></td>      
+			</tr>
+			<tr>
+				<td>Página web</td>
+				<td><input name="web" class="form-control" type="text"></td>      
+			</tr>
+			<tr>
+				<td>Persona de contacto</td>
+				<td><input name="contacto" class="form-control" type="text"></td>
+			</tr>
+			<tr>
+				<td>Móvil del contacto</td>
+				<td><input name="movil" class="form-control" type="text"><br></td>
+			</tr>
+			<tr>
+				<td>Titularidad</td>
+				<td><input name="empresaPrivada" type="radio" value="empresaPublica">Pública<br><input name="empresaPrivada" type="radio" checked="" value="empresaPrivada">Privada<br></td>
+			</tr>
+			<tr>
+				<td><form action="/action_page.php"><input type="submit" value="Validar"><input type="reset" value="Resetear"></form></td>
+			</tr>	
+		</table>
+	</body>
+</html>
